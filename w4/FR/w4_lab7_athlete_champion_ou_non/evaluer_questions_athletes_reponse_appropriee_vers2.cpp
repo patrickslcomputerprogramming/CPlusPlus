@@ -1,16 +1,16 @@
 /*
 LIRE 2 REPONSES,
 CALCULER ET ECRIRE UN MESSAGE APPROPRIE
-EN UTILISANT 1 INSTRUCTION if, else.
+EN UTILISANT 1 SEULE INSTRUCTION IF.
 */
 #include <iostream>
 using namespace std ;
 int main()
 {
-    //Déclarer les variables et les constantes et initialiser
+    //DÃ©clarer les variables et les constantes et initialiser
     char reponse_question1, reponse_question2;
 
-    //Inviter, lire et enregistrer les entrées
+    //Inviter, lire et enregistrer les entrÃ©es
     cout << "AVEZ-VOUS RENCONTRE D'AUTRES ATHLETES? (O/N)" ;
     cout << endl ; //Saut de ligne
     cin >> reponse_question1;
