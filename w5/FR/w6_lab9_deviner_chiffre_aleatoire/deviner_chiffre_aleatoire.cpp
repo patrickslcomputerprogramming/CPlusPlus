@@ -1,5 +1,5 @@
 /*
-LIRE 1 chiffre entre 0 et 6.
+LIRE 1 chiffre entre 0 et 5.
 CALCULER s'il est équivalent à un chiffre généré aléatoirement
 et répéter ce processus 6 fois pour ÉCRIRE à la fin un message WIn ou Failure,
 incluant le chiffre généré et le nombre de tentatives pour le deviner.
@@ -13,14 +13,14 @@ int main()
     int nombreIterations = 5, chiffreUtilisateur, nombreEchecs = 0, chiffreAleatoire;
 
     //Calculer
-    //Générer un chiffre aléatoire de 0 à 6
+    //Générer un chiffre aléatoire de 0 à 5
     srand(time(0)); //La bibliothèque #include<time.h> est requise pour exécuter ce code
     chiffreAleatoire = rand()%6;
 
     do
     {
         //Inviter, lire et enregistrer les entrées
-        cout<<endl<<"Entrez un chiffre de 0 à 6 pour deviner celui que le système vient de générer."<<endl;
+        cout<<endl<<"Entrez un chiffre de 0 à 5 pour deviner celui que le système vient de générer."<<endl;
         cin>>chiffreUtilisateur;
 
         //Calculer
