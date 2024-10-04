@@ -22,7 +22,7 @@ int main()
 
     do{
         //Invite, read, and save inputs
-        cout<<endl<<"Enter a digit from 0 to 6 to guess the one the system just generated."<<endl;
+        cout<<endl<<"Enter a digit from 0 to 5 to guess the one the system just generated."<<endl;
         cin>>user_digit;
 
         //Calulate
