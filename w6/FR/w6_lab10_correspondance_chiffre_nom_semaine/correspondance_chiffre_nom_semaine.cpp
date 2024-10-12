@@ -1,23 +1,23 @@
 /*
 LIRE 1 CHIFFRE ALLANT DE 1 A 7,
 CALCULER et ECRIRE LE NOM DU JOUR CORRESPONDANTs
-EN UTILISANT DES INSTRUCTIONS IF, ELSE IF, ELSE.
+EN UTILISANT UNE LISTE (ARRAY).
 */
 #include <iostream>
 using namespace std ;
 int main()
 {
-    //Déclarer les variables et constantes et initialiser
+    //DÃ©clarer les variables et constantes et initialiser
     char re_executer;
 
     do{
-        //Déclarer les variables et constantes et initialiser
+        //DÃ©clarer les variables et constantes et initialiser
         int day_number ;
         string day_name;
         const string listOfDayNames[7] = {"LUNDI", "MARDI", "MERCREDI", "JEUDI", "VENDREDI", "SAMEDI", "DIMANCHE"};
         int day_index;
 
-        //Inviter, lire, et enregistrer les entrées
+        //Inviter, lire, et enregistrer les entrÃ©es
         cout << "ENTRER UN CHIFFRE COMME RANG D'UN JOUR DE LA SEMAINE, ALLANT DE 1 A 7. J'AFFICHERAI LE NOM DU JOUR CORRESPONDANT." ;
         cout << endl; //Saut de ligne
         cin >> day_number;
@@ -35,7 +35,7 @@ int main()
         cout << "VOUS AVEZ ENTRE LE CHIFFRE "<<day_number<<" QUI CORRESPOND A "<<day_name<<"." ;
         cout << endl<<endl; //Saut de ligne
 
-        //Inviter, lire, et enregistrer les entrées
+        //Inviter, lire, et enregistrer les entrÃ©es
         cout << "PRESSEZ O POUR RECOMMENCER LE PROGRAMME OU N'IMPORTE QUELLE AUTRE TOUCHE POUR L'ARRETER";
         cout << endl; //Saut de ligne
         cin >> re_executer;
